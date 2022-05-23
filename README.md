@@ -49,8 +49,8 @@ brownie test --network <network>
 | Ownable Contracts   | Provides basic authorization control functions beneficial for preventing misuse or reducing gas fees       |
 | Blockchain Randomness | ChainLink VRF creates a random number and proof that is cryptographic in nature using request and recieve model |
 | Request and Recieve | One transaction is a request, second txn chainlink node will make function call and return data to smart contract | 
-| Funding Contracts | | 
-| Working with Mocks | | 
-| Working with Interfaces | | 
-| Testing | | 
-| Events & Emit | | 
+| Funding Contracts | To enable request and recieve process, understanding how/why we need to fund certain contracts | 
+| Working with Mocks | Creating a second version of that contract which behaves very similar to the original one, easily controlled by the developer | 
+| Working with Interfaces | Allows you to talk to another contract on the blockchain without adding extra complexity | 
+| Testing | AAA approach, unit & integration test | 
+| Events & Emit | Events create a contextual scenario and emit fires a callback. An action can then be triggered based on this callback | 
